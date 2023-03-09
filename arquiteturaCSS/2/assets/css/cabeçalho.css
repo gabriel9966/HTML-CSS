@@ -1,0 +1,8 @@
+.cabeçalho{
+    align-items: center;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;/*espaçamento interno*/
+    padding-right: 2rem;
+}

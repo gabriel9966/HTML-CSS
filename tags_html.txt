@@ -1,0 +1,61 @@
+<h1>ao<h6>=importancia do texto
+<div> = uma divisão do conteúdo
+<head> = cabeça , aonde e marcado o conteúdo que não sera exibido, conteúdo de informações gerais.
+<body> = corpo , aonde sera o conteudo exibido.
+
+class = marcador para mais elementos
+id = marcador mais único
+
+nav = conjunto de listas de navegação
+
+<meta charset="UTF-8"> = diz o dicionario usado
+
+<a>=usada para ligação entre páginas, link , ancora
+
+<em> = marca um texto em ênfase
+
+<strong> = marca em negrito, marca que é algo forte
+
+<img> = imagem
+
+<map> = um mapa
+
+ul = lista desordenada
+li = elemento de uma lista
+ol = lista ordenada
+
+height = altura
+
+<iframe> = uma janela, com algum conteúdo
+
+src = fonte do conteúdo
+
+<section> = igual a div, para representar uma área do site, se for apenas para estilo ultilize div
+
+<footer> = rodape
+
+alt = alternativo
+
+<h1>..<h6></> = mais importante para menos importante.
+<P></> = parágrafo.
+<strong></> = a importância de um conteúdo, forte, deixa o visual em negrito.
+<em></> = ênfase, deixa visualmente em itálico.
+<!DOCTYPE html> = primeira linha do html, serve para indicar que é um documento html,Passar informações para o navegador sobre qual versão do HTML estamos usando.
+<html></> = serve para marcar tudo que é html que vai ser rederizado pelo navegador.
+<meta> = passa informações para o navegador.
+<meta charset="UTF-8"> = Usa o dicionário/conjunto de caracteres utf-8, que contém acentos.
+<html lang"pt-br"> = diz que o idioma da página é português.
+<title></> = título da página.
+<head></> = cabeça, informações que passamos para o navegador.
+<body></> = corpo , informações que passamos na página, que sera exibida.~
+style = para alterar o estilo no html
+<ul></> = lista não ordenada
+<li></> = item da lista
+<nav></> = navegação da página
+<main></> = conteúdo principal
+<section> </> = div mais semantica
+<footer> </> = rodapé
+<span></span> = é um conteiner generico em linha para conteúdo fraseado , que não representa nada por natureza.
+
+pasta assets = arquivos staticos , imagens, css, fonts e outros
+normalize.css = reseta estilos do navegador 

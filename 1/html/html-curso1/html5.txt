@@ -1,0 +1,19 @@
+<h1>..<h6></> = mais importante para menos importante.
+<P></> = parágrafo.
+<strong></> = a importância de um conteúdo, forte, deixa o visual em negrito.
+<em></> = ênfase, deixa visualmente em itálico.
+<!DOCTYPE html> = primeira linha do html, serve para indicar que é um documento html,Passar informações para o navegador sobre qual versão do HTML estamos usando.
+<html></> = serve para marcar tudo que é html que vai ser rederizado pelo navegador.
+<meta> = passa informações para o navegador.
+<meta charset="UTF-8"> = Usa o dicionário/conjunto de caracteres utf-8, que contém acentos.
+<html lang"pt-br"> = diz que o idioma da página é português.
+<title></> = título da página.
+<head></> = cabeça, informações que passamos para o navegador.
+<body></> = corpo , informações que passamos na página, que sera exibida.~
+style = para alterar o estilo no html
+<ul></> = lista não ordenada
+<li></> = item da lista
+<nav></> = navegação da página
+<main></> = conteúdo principal
+<section> </> = div mais semantica
+<footer> </> = rodapé

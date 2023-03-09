@@ -1,0 +1,18 @@
+body{
+    background: #cccccc;
+}
+h1{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+    
+}
+em strong{
+    color: #ff0000;
+}
+/*rgb*/
+/* 0 ao f (--,--,--) red green blue #000000 ausência #ffffff máximo  */
+/*hexadecimal 0123456789abcdef*/
+/*rgb 0123...255*/

@@ -1,0 +1,134 @@
+footer = rodape
+header = cabeçalho
+main = conteúdo principal
+div = divisão de conteúdo
+section = div mais semantica, conteúdos familiares
+li = item da lista 
+quando for estilo usamos uma classe quando for comportamento usmaos um id
+em = ênfase
+float css = serve para que outros elementos ocupem seu redor 
+hover = muda quando o mause está em cima
+required = faz com que um elemento de um formulario seja obrigatorio
+width = largura
+vertical-align: top; = alinhada pela parte de cima
+margin = espaçamento externo
+padding - espaçamento interno
+line-height = altura da linha
+
+.tag:first-child = pega o primeiro "filho desta tag"
+
+font-weight: bold = o peso da font vai ser em negrito
+
+.tag:nth-child(numero do iten / filho) / (2n)=todos os elementos pares
+
+background: linear-gradient(graus,cores)= faz um degrade
+
+content=conteudo , usado com before e after no css
+
+label = legenda
+
+Seletor >, para acessar os filhos de determinado elemento. 
+
+Seletor +, para acessar o primeiro irmão de determinado elemento.
+
+Seletor ~, para acessar todos os irmãos de determinado elemento. 
+
+Seletor not, para acessar os elementos, exceto algum. 
+
+opacity: 0.7;/*70%*/ = diminui a luz no elemento (no caso 70%)
+
+box-shadow: 10px 10px 5px x #000000; = gera uma sombra/eixo X eixo Y/deixo menos sólido , transição/opasidade , o quão mais ela vai se espalhar/insent para uma sombra interna
+
+@media screen and (max-width: 480px) = dispositivos que tenham menos que 480px de larguro vai ter um estilo diferente
+
+
+css--------------------------------------------------------
+<link rel="stylesheet" href="style.css"> = para ter acesso ao arquivo externo de css
+
+style = para alterar o estilo no html
+
+três formas de se usar o css:
+
+primeira forma = <p style="text-align: center> = inline
+
+segunda forma
+<head>
+	<style>
+		p{
+			text-align: center;
+		}
+	</style>
+</head> = tag style
+
+terceira forma = arquivo externo
+
+
+cores css :
+/*rgb*/
+/* 0 ao f (--,--,--) red green blue #000000 ausência #ffffff máximo  */
+/*hexadecimal 0123456789abcdef*/
+/*rgb 0123...255*/
+
+text-align = alinhamento do texto 
+color  = cor
+background-color = cor de fundo
+font-size = tamanho da fonte
+
+
+text-trasform : upercase = deixa tudo maisculo
+font-weigth: bold = deixa em negrito
+text-decoretion : none = nenhume decoração , tira o sublinhado
+margin = expaçamento externo
+
+display: inline = deixa na mesma linha, não tem largura e altura
+display: block = o conteúdo ocupa toda a largura
+display: inline-block = gera uma caixa em bloco que oculpa serta altura e largura mas pode ter elemtnos ao lado
+display: flex = fica alinhado um do lado do outro
+
+position: relative = deixa mudar de espaço, a partir do ponto inicial, caso coloque um espçamento ele conta a paritir da posição inicial
+position: absolut = carrega em outro ponto, se tiver dentro de uma hierarquia aonde tem um relative ele muda a partir do relative se não tiver ele muda a partir do body
+position = relative,static,absolut,fixed,sticki
+position :static = padrão , não funciona top botton right e left
+position :fixed = fica fixo independento do scroll, se abaixar ou levantar ele vai junto na mesma posiçãos 
+position :sticki = ele vai mechendo até chegar no limite da tela dai fica fixo
+viewport = tamanho total do documento
+
+padding = espaçamento interno
+
+display: inline-block = fica uma linha em bloco
+
+box-sizing : border-box = torna a largura em definitivo, caso aja espaçamento , e dentro da largura já determinada
+
+
+
+para montar uma borda{
+border-color
+border-width
+border-style  ou 
+
+border 2px solid red
+
+border-radius = deixa a borda arredondada
+}
+
+:hover = quando passar o mause por cima
+:active = quando estiver activo, clicar em cima
+
+border-box
+As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a propriedade border, mas não incluem a propriedade margin.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+css (arquitetura css)
+
+BEM = block element modifier
+
+bloco
+bloco__elemento
+bloco--modificador
+bloco__elemento--modificador
+
+flex-wrap:wrap; = A propriedade CSS flex-wrap define se os itens flexíveis são forçados a ficarem na mesma linha ou se podem ser quebradas em varias linhas, quebra linha automaticamente
+
+rem = é uma medida constante

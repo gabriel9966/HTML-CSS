@@ -1,0 +1,7 @@
+vertical-align: middle; = alinha no centro
+align-items:center; = alinha verticalmente no centro
+justify-content: space-around; = espaço em volta dos elementos
+flex-wrap: wrap; = quebra a coluna
+flex-direction: column; = flex em coluna
+flex-grow = para o flex item crescer o tamanho que sobrou do flex container
+flex-shrink = diminuir item 

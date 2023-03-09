@@ -1,0 +1,30 @@
+.cabeçalho{
+   background-color: blanchedalmond;
+    width: 100;
+    height: 180px;
+}
+#logo{
+    color: gray;
+    font-weight: bold;
+    font-size: 28px;
+    position: absolute;
+    padding: 5% 25%;
+
+}
+
+.cabeçalho ul li{
+    display: inline;
+    color: gray;
+    font-size: 28px;
+    position: absolute;
+    
+}
+.carros{
+    width: 1000px;
+    display: inline-block;
+    height: 250px;
+    
+}
+.carros ul li {
+    padding: 0 30% ;
+}

@@ -1,0 +1,12 @@
+.receita__botao{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all ease-in-out;/*começa e termina devagar*/
+}
+.receita__botao:hover{
+    background-color: #620404;
+    cursor: pointer;
+}

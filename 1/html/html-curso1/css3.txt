@@ -1,0 +1,62 @@
+<link rel="stylesheet" href="style.css"> = para ter acesso ao arquivo externo de css
+
+style = para alterar o estilo no html
+
+três formas de se usar o css:
+
+primeira forma = <p style="text-align: center> = inline
+
+segunda forma
+<head>
+	<style>
+		p{
+			text-align: center;
+		}
+	</style>
+</head> = tag style
+
+terceira forma = arquivo externo
+
+
+cores css :
+/*rgb*/
+/* 0 ao f (--,--,--) red green blue #000000 ausência #ffffff máximo  */
+/*hexadecimal 0123456789abcdef*/
+/*rgb 0123...255*/
+
+text-align = alinhamento do texto 
+color  = cor
+background-color = cor de fundo
+font-size = tamanho da fonte
+
+
+text-trasform : upercase = deixa tudo maisculo
+font-weigth: bold = deixa em negrito
+text-decoretion : none = nenhume decoração , tira o sublinhado
+margin = expaçamento externo
+
+display: inline = deixa na mesma linha
+
+position: relative = deixa mudar de espaço, a partir do ponto inicial
+position: absolut = carrega em outro ponto
+
+padding = expaamento interno
+
+display: inline-block = fica uma linha em bloco
+
+box-sizing : border-box = torna a largura em definitivo, caso aja espaçamento , e dentro da largura já determinada
+
+
+
+para montar uma borda{
+border-color
+border-width
+border-style  ou 
+
+border 2px solid red
+
+border-radius = deixa a borda arredondada
+}
+
+:hover = quando passar o mause por cima
+:active = quando estiver activo, clicar em cima
