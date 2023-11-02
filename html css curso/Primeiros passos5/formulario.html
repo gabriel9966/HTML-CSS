@@ -19,6 +19,7 @@
             height: 25px;
             padding: 0px;
             font-family: 17px;
+            margin-bottom: 30px;
         }
         label{
             display: block;
@@ -66,13 +67,83 @@
             
         
         
+       
+    
+        <p>
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p>
+            <label for="dataT">Date-Time</label>
+            <input type="datetime-local" name="dataT" id="dataT">
+        </p>
+        <p>
+            <label for="Time">Time</label>
+            <input type="time" name="time" id="time">
+        </p>
+        <p>
+            <label for="color">Cor</label>
+            <input type="color" name="color" id="color" value="#0099ff">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+        </p>
+        <p>
+            <label for="file">Arquivo</label>
+            <input type="file" name="file" id="file" accept=".png" >
+        </p>
+
+        <p>
+            <label for="number">number</label>
+            <input type="number" name="number" id="number"  >
+        </p>
+        <p>
+            <label for="password">Senha :</label>
+            <input type="password" name="password" id="password"  >
+        </p>
+
+        <p>
+            <label for="range">Range</label>
+            <input type="range" name="range" id="range" max="5" min="0" >
+        </p>
+
+        <p>
+            <label for="range">Url</label>
+            <input type="url" name="url" id="url" placeholder="URL" >
+        </p>
+
+        <p>
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search" placeholder="search" >
+        </p>
+
+        <p>
+            <label for="select">Selecione</label>
+            <select name="select" id="select">
+                
+
+                <optgroup label="Grupo de opções">
+                    <option value="1" selected>1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" disabled>4</option>
+                </optgroup>
+
+                <optgroup label="Grupo de opções2">
+                    <option value="1" >1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4" disabled>4</option>
+                </optgroup>
+            </select>
+        </p>
+
         <p>
             <button type="reset">reset</button>
                 <button type="submit">Enviar</button>
         </p>
-    
 
-        
 
 
     </form>
