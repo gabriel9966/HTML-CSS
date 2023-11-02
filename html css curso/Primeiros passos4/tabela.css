@@ -1,0 +1,19 @@
+table{
+    margin: 15px;
+}
+
+table caption {
+    border:1px solid gray ;
+    font-size: 30px;
+}
+
+table td , table th{
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+table th{
+    font-weight: bold;
+    font-size: 23px;
+    
+}

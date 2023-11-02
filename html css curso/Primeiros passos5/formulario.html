@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="reset copy.css">
+
+    <style>
+        p{
+            margin-top: 15px;
+            margin-left: 15px;
+            
+        }
+        button{
+            margin-left: 5px;
+            cursor: pointer;
+            width: 70px;
+            height: 25px;
+            padding: 0px;
+            font-family: 17px;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        input{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+      
+    
+
+    <form action="#" autocomplete="off" target="_blank">
+        <p>Meu formulário!</p>
+        
+        <p>
+            <label for="nome">Nome</label>
+        
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required >
+        </p>
+
+        <p>
+            <label for="dev">VC é dev ?</label>
+       
+            <input type="checkbox" name="dev" id="dev" value="Sim">
+        </p>
+        <p>
+            <label for="Ndev">VC não é dev ?</label>
+       
+            <input type="checkbox" name="Ndev" id="Ndev" value="Não">
+        </p>
+
+        <p>
+            
+            <label for="radio">Radio1</label>
+            <input type="radio" name="radio" id="radio" value="radio" checked> 
+            <label for="radio2">Radio2</label>
+            <input type="radio" name="radio" id="radio2" value="radio2"> 
+            <label for="radio3">Radio3</label>
+            <input type="radio" name="radio" id="radio3" value="radio3">
+        </p>
+            
+            
+        
+        
+        <p>
+            <button type="reset">reset</button>
+                <button type="submit">Enviar</button>
+        </p>
+    
+
+        
+
+
+    </form>
+
+</body>
+</html>

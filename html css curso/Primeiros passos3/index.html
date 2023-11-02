@@ -3,25 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Listas</title>
+    <link rel="stylesheet" href="reset.css">
 
     <style>
-        .sectionOne{
-            width: 300px;
-            background-color: gray;
-            border: 5px solid black;
-            padding: 30px;
-            margin: 30px;
+
+        nav{
+            
+            background-color: rgba(0,0, 0, 0.65);
+            display: flex;
+            
+            align-items: center;
+
+
         }
-        .sectionTwo{
-            background-color: antiquewhite;
-            border: 5px solid black ;
+
+        a {
+            text-decoration: none;
+            font-family: sans-serif;
+            color: white;
+            
+            font-size: 20px;
+            display: block;
+            background-color: red;
+            padding: 15px 25px;
+            text-transform: uppercase;
+
+
         }
+
+        nav ul {
+            display: flex;
+            margin-left: 30px;
+        }
+
     </style>
+
+    
 </head>
 <body>
-    <section class="sectionOne"><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum aliquid quibusdam quis impedit sit, molestiae eius dolore sunt eveniet dolorem totam similique laboriosam reprehenderit aperiam doloremque quia, officia odio? Esse!</h2></section>
-    <section class="sectionTwo"><h2>Section 2</h2></section>
-   
+
+    <aside>
+        <nav>
+
+            <ul>
+                <li><a href="">item1</a></li>
+                <li><a href="">item2</a></li>
+                <li><a href="">item3</a></li>
+                
+            </ul>
+
+        </nav>
+    </aside>
+    
+    
+   <ul>
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+   </ul>
+
+   <ol type="1" start="0">
+    <li>item1</li>
+    <li>item2</li>
+    <li>item3</li>
+   </ol>
 </body>
 </html>
