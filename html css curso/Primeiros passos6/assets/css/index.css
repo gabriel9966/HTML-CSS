@@ -1,0 +1,38 @@
+/*Seletores css*/
+.divvv{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    border: 1px solid black;
+}
+
+div section div h1,div section div h2{
+    color: red;
+}
+
+section.main-content div.main-div {
+    background-color: blueviolet;
+}
+/*~ usado para falar que está selecionando um*/
+[meuattibuto~="a"]{
+    font-size: 35px;
+    color: blue;
+}
+.aaa{
+    margin: 20px;
+}
+.bbb{
+    background-color: antiquewhite;
+}
+
+[meuAtributo2]{
+    color: brown;
+}
