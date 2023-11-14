@@ -36,3 +36,12 @@ section.main-content div.main-div {
 [meuAtributo2]{
     color: brown;
 }
+
+h2{
+    transition: all 3s ease;
+}
+h2:hover{
+    color: darkgreen;
+    background-color: aqua;
+    
+}
