@@ -1,0 +1,19 @@
+.Texto{
+    display: block;
+    background-color: red;
+    width: 50%;
+}
+p{
+color: white;
+}
+
+.Texto2{
+
+    height: 200px;
+    width: 500px;
+    background-color: bisque;
+    padding: 60px;
+    overflow: hidden;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
