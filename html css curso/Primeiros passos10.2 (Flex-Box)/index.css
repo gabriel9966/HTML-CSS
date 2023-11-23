@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: row;/*Direção do eixo prinncipal*/
     justify-content: flex-end;/*Eixo principal*/
-    align-items: flex-end;/*Eixo segundario*/
-    /*align-content: space-around;*/
+    align-items: flex-start;/*Eixo segundario*/
+    align-content: stretch;
     flex-wrap: wrap;
 }
 .flex-item{
