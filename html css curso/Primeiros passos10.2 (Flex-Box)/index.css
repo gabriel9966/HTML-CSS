@@ -1,0 +1,16 @@
+.flex-container{
+    height: 700px;
+    width: 30%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;/*Direção do eixo prinncipal*/
+    justify-content: flex-end;/*Eixo principal*/
+    align-items: flex-end;/*Eixo segundario*/
+    /*align-content: space-around;*/
+    flex-wrap: wrap;
+}
+.flex-item{
+    width: 35px;
+    background-color: aqua;
+}
+

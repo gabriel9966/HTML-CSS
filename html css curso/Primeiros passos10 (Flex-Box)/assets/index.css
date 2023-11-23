@@ -1,19 +1,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .flex-container{
-    height: 300px;
+    
     background-color: antiquewhite;
     display: flex;
     flex-direction: row;/*Direção do eixo prinncipal*/
-    justify-content: space-around;/*Alinhamento no eixo principal*/
-    align-items: stretch;/*Alinhamento no eixo segundario*/
+    justify-content: space-between;/*Alinhamento no eixo principal*/
+    /*align-items: center;/*Alinhamento no eixo segundario*/
+    /*align-content: center;/*Alinha o conteúdo todo*/
+    flex-wrap: wrap;
+  
 }
 
 .flex-item{
     background-color: aqua;
-    width: 100%;
+    /*width: 32%;/*Ocupa 100% do espaço que sobrou para ele*/
+    flex-basis: 330px;
     margin: 10px;
+    height: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
