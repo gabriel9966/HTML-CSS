@@ -1,0 +1,17 @@
+
+.Grid{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: repeat(/*5,1fr*/  auto-fill,minmax(320px,1fr));
+    gap: 25px;
+    margin: 0 auto;
+}
+
+.Grid div{
+    background-color: aqua;
+    min-height: 100px;
+}
+
+body{
+    font-size: 40px;
+}
