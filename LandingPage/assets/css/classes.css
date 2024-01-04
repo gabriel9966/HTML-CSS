@@ -1,0 +1,21 @@
+.main-bg{
+    background-image: url(../images/mainvg.svg.svg);
+    background-size: cover;/*Cobre todo o container ,corta parte da imagen para esse prenchimento total*/
+    background-position: center center;/*posição inicial da imagen (Xhorizontal e Yvertiacal)*/
+    color: var(--white);/*Cor do texto*/
+}
+
+.white-bg{
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
+.main-content{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;/*terá no mínimo 100% da altura da tela*/
+}

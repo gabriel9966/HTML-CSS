@@ -1,70 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
-:root{
-    --primary-color: #162865;
-    --white : white;
-    --gap:3rem;
-}
 
-html{
-    font-size: 62.5%;/*Isso deixa 1rem como 10px*/
-}
-body{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
-    color: var(--primary-color);
 
-}
 
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Open Sans', sans-serif;
-    
-}
 
-h1{
-    font-size: 6rem;/*6 x tamanho da font do elemento raiz, no caso 6x10*/
-    text-transform: uppercase;
-}
-h2{
-    font-size: 5.5rem;
-}
-h3{
-    font-size: 5rem;
-}
-h4{
-    font-size: 4.5rem;
-}
-
-h5{
-    font-size: 4rem;
-}
-h6{
-    font-size: 3.5rem;
-}
-
-.main-bg{
-    background-image: url(../images/mainvg.svg.svg);
-    background-size: cover;/*Cobre todo o container ,corta parte da imagen para esse prenchimento total*/
-    background-position: center center;/*posição inicial da imagen (Xhorizontal e Yvertiacal)*/
-    color: var(--white);
-}
-
-.white-bg{
-    background-color: var(--white);
-}
-
-.main-content{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: var(--gap);
-}
-
-.section{
-    min-height: 100vh;/*terá no mínimo 100% da altura da tela*/
-}
