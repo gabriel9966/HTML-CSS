@@ -1,4 +1,4 @@
-:root{
+:root{/*Tem escopo global*/
     --primary-color: #162865;
     --white : white;
     --white-menu : #eee;

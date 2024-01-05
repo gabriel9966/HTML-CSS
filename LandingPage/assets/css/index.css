@@ -6,4 +6,9 @@ font-family: 'Open Sans', sans-serif;
 
 
 
+.intro-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: var(--gap);
 
+}
