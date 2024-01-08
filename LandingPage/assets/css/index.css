@@ -7,8 +7,32 @@ font-family: 'Open Sans', sans-serif;
 
 
 .intro-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    gap: var(--gap);
 
+    display: grid;
+    grid-template-columns: 1fr 1.5fr ;
+    padding: 0;
+    align-items: center;
+    min-height: 100vh;
+
+
+}
+
+.intro-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*Eixo principal*/
+    align-items: center;/*Eixo secundário*/
+
+
+}
+
+.intro-text-content h2{
+    margin-bottom: 5vh;
+    font-size: 6rem;
+
+}
+
+.intro-img img{
+    max-width: 75%;
+    margin-left: 5vw;
 }

@@ -27,6 +27,7 @@
 .menu h1 a {
     color: inherit;/*Herda do elemento pai*/
     text-decoration: none;
+
 }
 
 .menu ul{
