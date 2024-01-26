@@ -47,3 +47,34 @@ font-family: 'Open Sans', sans-serif;
     width: 50vw;
     margin-bottom: 3rem;
 }
+
+.grid-one-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;/*Vertical / Eixo principal*/
+    flex-direction: column;
+    align-items: center;/*Horizontal / Eixo secundário*/
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--gap);
+    counter-reset: grid-counter;
+
+}
+
+.grid h3 {
+    font-size: 2.5rem;
+}
+
+.grid h3::before{
+    counter-increment: grid-counter;
+    content: counter(grid-counter);
+    font-size: 4.5rem;
+    margin-right: 1.3rem;
+    font-style: italic;
+    rotate: calc(75);
+    
+}
