@@ -1,7 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     color: white;
     background-color: black;
+    height: 100vh;
 }
+
+.apresentacao{
+    display: flex;
+    align-items: center;
+}
+
 /**/
 .titulo-destaque{
     color: aqua;
