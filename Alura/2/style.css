@@ -19,11 +19,15 @@ body{
     align-items: center;
     justify-content: center;
     margin: 10%;
+
 }
 
 .apresentacao__conteudo{
     width: 30vw;
-    height: 40vh;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .apresentacao__conteudo__titulo{
     font-size: 36px;
@@ -36,13 +40,31 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
+.apresentacao__conteudo__alinhamentoBotao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .apresentacao__conteudo__botao{
-    
+    width: 40%;
+    height: 30px;
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 20px;
 }
 
 .img{
     width: 25vw;
-    height: 40vh;
+    height: 50vh;
 }
 
 /**/
